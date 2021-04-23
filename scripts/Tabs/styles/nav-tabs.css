@@ -1,0 +1,30 @@
+.nav-pills {
+  margin-bottom: 20px;
+}
+
+.nav-pills .nav-link {
+  color: #6b6b6c;
+  background: white;
+  border: 1px solid transparent;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #6b6b6c;
+  background-color: #fff;
+  border: 1px solid #fe3844 !important;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+@media only screen and (max-width: 495px) {
+  .nav-pills .nav-link {
+    width: 100%;
+  }
+
+  .nav-pills li {
+    width: 100%;
+    border-bottom: 1px solid #00000010;
+  }
+}

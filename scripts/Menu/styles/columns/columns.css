@@ -1,0 +1,34 @@
+@import './menu-col-right.css';
+@import './menu-col-left.css';
+
+.custom_menu > div > div.menu-col-left,
+.custom_menu > div > div.menu-col-right {
+  padding: 2% 0 2% 5%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.custom_menu > div > div.menu-col-left::-webkit-scrollbar,
+.custom_menu > div > div.menu-col-right::-webkit-scrollbar {
+  width: 0;
+}
+
+.menu-col-right > ul > li:not(.megaline),
+.menu-col-right > ul > li.megaline > div > ul > li {
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.menu-col-right > ul > li:not(.megaline):hover,
+.menu-col-right > ul > li.megaline > div > ul > li:hover {
+  -webkit-transform: translateX(3px);
+  -ms-transform: translateX(3px);
+  transform: translateX(3px);
+}
+
+.menu-col-right > ul > li:not(.megaline):hover a,
+.menu-col-right > ul > li.megaline > div > ul > li:hover a {
+  color: #e31f25;
+}

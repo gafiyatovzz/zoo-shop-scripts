@@ -1,0 +1,32 @@
+
+/* PLACEHOLDER */
+
+
+body .wrapper .header .header-wrapper .header-search input.form-control::-webkit-input-placeholder {
+  font-size: 16px !important;
+  color: #dadada !important;
+}
+
+
+body .wrapper .header .header-wrapper .header-search input.form-control::-moz-placeholder {
+  font-size: 16px !important;
+  color: #dadada !important;
+}
+
+
+body .wrapper .header .header-wrapper .header-search input.form-control:-ms-input-placeholder {
+  font-size: 16px !important;
+  color: #dadada !important;
+}
+
+
+body .wrapper .header .header-wrapper .header-search input.form-control::-ms-input-placeholder {
+  font-size: 16px !important;
+  color: #dadada !important;
+}
+
+
+body .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
+  font-size: 16px !important;
+  color: #dadada !important;
+}

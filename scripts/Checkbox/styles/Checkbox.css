@@ -1,0 +1,90 @@
+.product-product .product-single #product > .form-group > label ~ div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+
+.product-product .product-single .checkbox.custom-control:hover {
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.product-product .product-single .checkbox.custom-control {
+  padding-left: 0 !important;
+  width: 70px;
+  height: 60px;
+  margin: 0 10px 0px 0 !important;
+  -webkit-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.product-product .product-single .checkbox.custom-control input {
+  display: none !important;
+}
+
+.product-product .product-single .checkbox .custom-control-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1.2;
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid #ececec;
+}
+
+.product-product .product-single .checkbox .custom-control-label > div {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.product-product .product-single .checkbox .custom-control-label > div:first-child {
+  border-bottom: 1px solid #ececec;
+  font-weight: normal !important;
+}
+
+body.ltr .checkbox .custom-control-input:checked ~ .custom-control-label > div {
+  border-color: #fe3844;
+}
+
+body.ltr .checkbox .custom-control-input:checked ~ .custom-control-label::before,
+body.ltr .checkbox .custom-control-input:checked ~ .custom-control-label::after,
+body.ltr .checkbox .custom-control-input ~ .custom-control-label::before,
+body.ltr .checkbox .custom-control-input ~ .custom-control-label::after {
+  display: none !important;
+}
+
+body.ltr .checkbox .custom-control-input:checked ~ .custom-control-label {
+  color: #000 !important;
+  background: #fe384420 !important;
+  border: 1px solid #fe3844;
+}

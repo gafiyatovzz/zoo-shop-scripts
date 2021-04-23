@@ -1,0 +1,57 @@
+body.ru.ltr .wrapper section h2.section-title span {
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  body.ru.ltr .wrapper section h2.section-title {
+    text-align: left !important;
+    padding-left: 6px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: none;
+    line-height: 1.2;
+    overflow: visible;
+    color: black !important;
+    margin-bottom: 25px !important;
+  }
+
+  body.ru.ltr .wrapper section h2.section-title span {
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    font-size: 22px !important;
+  }
+
+  body.ru.ltr .wrapper section h2.section-title:after {
+    height: 2px;
+    width: 100%;
+    background: #000;
+    content: '';
+    display: block;
+    margin-left: 20px;
+    margin-top: 3px;
+  }
+
+  body .section-title span:before,
+  body .section-title span:after {
+    display: none !important;
+  }
+
+  .partners .section-title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  body.ru.ltr .wrapper section h2.section-title span {
+    min-width: 100px !important;
+    font-size: 20px !important;
+  }
+}

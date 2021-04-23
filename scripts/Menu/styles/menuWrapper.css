@@ -1,0 +1,32 @@
+.custom_menu.menu_closed {
+  display: none;
+}
+
+.custom_menu {
+  position: absolute;
+  min-height: 400px;
+  left: 0;
+  /* top: 45px; */
+  background: #f7f7f7;
+  width: 100vw;
+  z-index: 99;
+  margin-top: 6px;
+}
+
+.custom_menu > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.custom-menu_wrapper {
+  position: fixed;
+  z-index: -1;
+  /* background: #00000009; */
+  width: 100vw;
+  height: 100vh !important;
+  overflow-y: hidden;
+  top: 0;
+  right: 0;
+}

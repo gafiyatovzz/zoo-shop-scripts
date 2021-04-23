@@ -1,0 +1,53 @@
+@import './nav_contacts.css';
+@import './sf-menu.css';
+@import './sidenav.css';
+
+header .nav {
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+  z-index: 9999;
+}
+
+header .navigation-wrapper {
+  background: #ececec57 !important;
+  padding: 5px 0;
+}
+
+/* .header .navigation-wrapper > .container {
+  max-width: 1140px !important;
+} */
+
+.header .navigation-wrapper .navigation {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body.ru.ltr .wrapper .header .header-wrapper .header_widgets {
+  height: 100%;
+  position: unset !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 0 !important;
+  padding: 0 !important;
+  max-width: initial !important;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* .navigation-wrapper .container {
+    max-width: 1140px !important;
+  } */
+
+  body.ltr .wrapper .header nav.navigation ul.nav.sf-menu > li.flexy > a,
+  body.ltr
+    .wrapper
+    .header
+    .navigation-wrapper
+    nav.navigation
+    ul.nav.sf-menu
+    > li[data-nav-part='home']
+    > a {
+    font-size: 14px;
+  }
+}

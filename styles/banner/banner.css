@@ -1,0 +1,89 @@
+.content-area .main-slider {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.content-area .main-slider,
+body.ltr .main-slider .img-fluid {
+  -o-object-fit: contain;
+  object-fit: contain;
+  max-width: 1140px;
+}
+/* 
+@media (min-width: 992px) {
+  .content-area .main-slider,
+  body.ltr .main-slider .img-fluid {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-area .main-slider,
+  body.ltr .main-slider .img-fluid {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .content-area .main-slider,
+  body.ltr .main-slider .img-fluid {
+    max-width: 540px;
+  }
+} */
+
+.product-category-8242 .page-section.titles,
+.product-category-7708 .page-section.titles,
+.product-category-9001 .page-section.titles {
+  height: 380px;
+  border: none !important;
+  background: none !important;
+}
+
+.product-category-8242 .page-section.titles > div,
+.product-category-7708 .page-section.titles > div,
+.product-category-9001 .page-section.titles > div {
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  height: 100% !important;
+}
+
+.product-category-9001 .page-section.titles > div > .page-header,
+.product-category-7708 .page-section.titles > div > .page-header,
+.product-category-8242 .page-section.titles > div > .page-header {
+  display: none !important;
+}
+
+.product-category-8242 .page-section.titles > div {
+  background: url(https://res.cloudinary.com/depgheppz/image/upload/v1617028191/Group_7423744_fnrz96.png);
+}
+
+.product-category-7708 .page-section.titles > div {
+  background: url(https://res.cloudinary.com/depgheppz/image/upload/v1617028664/Group_7423745_sx1gxk.png);
+}
+.product-category-9001 .page-section.titles > div {
+  background: url(https://res.cloudinary.com/depgheppz/image/upload/v1617028192/Frame_79_vavma2.png);
+}
+
+/* @media (max-width: 1200px) {
+  .product-category-8242 .page-section.titles,
+  .product-category-7708 .page-section.titles,
+  .product-category-9001 .page-section.titles {
+    max-height: 300px !important;
+  }
+   */
+@media (max-width: 766px) {
+  .product-category-8242 .page-section.titles,
+  .product-category-7708 .page-section.titles,
+  .product-category-9001 .page-section.titles {
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 495px) {
+  .product-category-8242 .page-section.titles,
+  .product-category-7708 .page-section.titles,
+  .product-category-9001 .page-section.titles {
+    height: 150px !important;
+  }
+}

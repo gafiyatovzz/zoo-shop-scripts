@@ -1,0 +1,73 @@
+body
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button,
+body
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .more_details_btn_wrapper
+  > button {
+  background: -o-linear-gradient(top, #fe2733f7 0%, #ff434ff7 28.81%, #d8151b 99.79%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fe2733f7), color-stop(28.81%, #ff434ff7), color-stop(99.79%, #d8151b)) !important;
+  background: linear-gradient(180deg, #fe2733f7 0%, #ff434ff7 28.81%, #d8151b 99.79%) !important;
+  border-radius: 10px !important;
+}
+
+.add_to_wishlist i.far {
+  font-weight: bold !important;
+}
+
+body
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity {
+  border-radius: 10px;
+  border-color: #fe2733f7 !important;
+}
+
+body.ltr .thumbnail .add_to_wishlist,
+body.ltr .thumbnail .remove_from_wishlist {
+  right: 0 !important;
+  left: auto !important;
+  top: 0;
+  height: 40px;
+}
+
+.thumbnail .add_to_wishlist button,
+.thumbnail .remove_from_wishlist button {
+  background: transparent !important;
+  color: #00000050 !important;
+  font-size: 22px !important;
+  padding: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.thumbnail .add_to_wishlist button:hover,
+.thumbnail .add_to_wishlist button:hover i {
+  background: none !important;
+  color: red !important;
+}

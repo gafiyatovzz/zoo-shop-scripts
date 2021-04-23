@@ -1,0 +1,73 @@
+.menu-col-right > ul.with_megaline {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.menu-col-right > ul:not(.with_megaline) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.menu-col-right > ul:not(.with_megaline) > li {
+  width: 33%;
+}
+
+.menu-col-right > ul > li.empty-item {
+  display: none !important;
+}
+
+.custom_menu > div > div.menu-col-right {
+  padding-left: 0;
+  background: white;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.menu-col-right > ul .megaline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.menu-col-right > ul .megaline > div {
+  max-width: 25%;
+  width: 100%;
+}
+
+.menu-col-right > ul .megaline > div > .block-title {
+  font-size: 16px;
+  margin-bottom: 5px !important;
+  font-weight: bold;
+}
+
+.menu-col-right > ul .megaline > div > .block-title a {
+  color: #ee1d23;
+}
+
+body.ltr .block-title span:after {
+  display: none;
+}
+
+.menu-col-right > ul .megaline > div > ul > li > a,
+.menu-col-right > ul:not(.with_megaline) > li > a {
+  font-weight: normal;
+}

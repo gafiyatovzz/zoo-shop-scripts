@@ -1,0 +1,12 @@
+@import './nav-tabs.css';
+@import './tab-content.css';
+
+.custom-tabs {
+  background: #f9fafa;
+  padding: 35px 2%;
+}
+
+
+.row.product-single.product-item .tab-pane.active div[id] {
+  display: none;
+}

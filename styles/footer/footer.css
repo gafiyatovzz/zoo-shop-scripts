@@ -1,0 +1,75 @@
+.icons__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-widgets > .container > .row {
+  width: 100% !important;
+  padding-top: 30px !important;
+}
+
+body .footer {
+  background: white !important;
+}
+
+body .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  color: #565555 !important;
+}
+
+body .wrapper footer.footer .footer-widgets .widget-title {
+  color: black !important;
+  font-weight: 700 !important;
+  margin-bottom: 0 !important;
+}
+
+body .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  font-weight: normal;
+}
+
+#sellavi_logo {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100px;
+}
+
+body.ru footer .footer-widgets {
+  padding-top: 0;
+}
+
+body.ru footer .footer-widgets .container {
+  border-top: 1px solid;
+  padding-top: 0 !important;
+}
+
+.footer-meta .row:not(.footer_content_wrapper)>div:last-of-type {
+  margin-top: 0 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  body .footer .footer-widgets .widget-title {
+    margin-bottom: 0 !important;
+  }
+
+/*
+  body.ru > div > footer > div.footer-widgets > div.container > div > div:not(:nth-child(1)) {
+    margin-top: 30px !important;
+    padding-top: 20px;
+    border-top: 1px solid black;
+  } */
+
+  .footer-widgets > div > div > div {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 495px) {
+  
+  footer.footer .widget {
+    padding: 0 15px !important;
+  } 
+}

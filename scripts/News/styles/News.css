@@ -1,0 +1,22 @@
+.news {
+  margin-top: 50px;
+}
+
+.news-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.news-img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .news-container > div {
+    padding: 0 !important;
+
+  }
+}
